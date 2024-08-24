@@ -22,7 +22,7 @@ export default class LoginPage {
 
   async fillPassword(password: string) {
     await this.page.locator(this.passwordInputSelector).fill(password);
-   // logger.info("Filled pasword");
+   
   }
 
   async clickLoginButton() {
@@ -30,7 +30,7 @@ export default class LoginPage {
       .locator(this.loginButtonSelector)
       .click()
       .catch((error) => {
-        throw error; // rethrow the error if needed
+        throw error; 
       })
 
     const homePage = new HomePage(this.page);
