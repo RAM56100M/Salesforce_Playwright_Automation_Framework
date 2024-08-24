@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","15193","simple login test with self heal","webkit","Sat Aug 24 14:17:38 IST 2024","passed","Sat Aug 24 14:17:53 IST 2024","","loginTest.spec.ts","",""
