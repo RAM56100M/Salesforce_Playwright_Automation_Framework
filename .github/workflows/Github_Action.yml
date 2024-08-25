@@ -36,16 +36,3 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-
-    - name: Send email notification
-      if: success()
-      uses: dawidd6/action-send-mail@v3
-      with:
-        server_address: ${{ secrets.SMTP_SERVER }}
-        server_port: ${{ secrets.SMTP_PORT }}
-        username: ${{ secrets.EMAIL }}
-        password: ${{ secrets.EMAIL_PASSWORD }}
-        subject: Playwright Tests Job Success
-        body: The Playwright tests have completed successfully.
-        to: rammarshivane@exaqode.com
-        from: ${{ secrets.EMAIL }}
