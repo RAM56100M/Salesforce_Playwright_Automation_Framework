@@ -49,3 +49,10 @@ jobs:
         name: allure-report
         path: allure-report/
         retention-days: 30
+
+  attest:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+    - name: Attest Build Provenance
+      uses: actions/attest-build-provenance@v1.4.2
