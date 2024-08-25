@@ -1,0 +1,4 @@
+SALT: 23muku
+Encrypted: U2FsdGVkX1/TaVotrM3wTYk4ykEhz5n5HxMj77TrFbA=
+Decrypted: Hello Ram!
+Encryption complete. Updated .env file.

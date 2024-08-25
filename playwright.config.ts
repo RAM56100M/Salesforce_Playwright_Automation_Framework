@@ -1,7 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 import { AllureReporter } from 'allure-playwright';
 
-if (!process.env.NODE_ENV) {
+if (!process.env.NODE_ENV) //only change the ENV value to chnage the environment
+  {
   require("dotenv").config({ path: `${__dirname}//src//config//.env` });
 } else {
   require("dotenv").config({

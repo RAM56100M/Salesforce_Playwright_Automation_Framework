@@ -1,0 +1,3 @@
+qa
+playwright.user@qa.com
+playwright_qa

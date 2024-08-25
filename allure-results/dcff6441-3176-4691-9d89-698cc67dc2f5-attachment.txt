@@ -1,0 +1,2 @@
+SALT: undefined
+Encrypted: U2FsdGVkX18UyirBnJWri/ioGjG3ixVwhZ/xRzu/4+4=

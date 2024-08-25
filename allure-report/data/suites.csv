@@ -1,2 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11133","simple login test with self heal","webkit","Sun Aug 25 12:12:47 IST 2024","passed","Sun Aug 25 12:12:58 IST 2024","","loginTest.spec.ts","",""
+"","470","Encrypt/Decrypt Credentials","webkit","Sun Aug 25 14:10:39 IST 2024","passed","Sun Aug 25 14:10:40 IST 2024","","loginTest.spec.ts","",""
+"","1","Sample Env test","webkit","Sun Aug 25 14:10:38 IST 2024","skipped","Sun Aug 25 14:10:38 IST 2024","","loginTest.spec.ts","",""
+"","4","simple login test with self heal","webkit","Sun Aug 25 14:10:38 IST 2024","skipped","Sun Aug 25 14:10:38 IST 2024","","loginTest.spec.ts","",""
