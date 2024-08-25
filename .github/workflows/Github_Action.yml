@@ -60,7 +60,7 @@ jobs:
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: Playwright Tests Report
         body: The Playwright tests have completed. Please find the attached Allure report.
-        to: recipient@example.com
+        to: srpatil9944@gmail.com
         from: ${{ secrets.EMAIL }}
         attachments: |
-          allure-report/**/*
+          allure-report/*
