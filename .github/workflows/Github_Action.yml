@@ -49,18 +49,3 @@ jobs:
         name: allure-report
         path: allure-report/
         retention-days: 30
-
-    - name: Send email notification with Allure report
-      if: always()
-      uses: dawidd6/action-send-mail@v3
-      with:
-        server_address: ${{ secrets.SMTP_SERVER }}
-        server_port: ${{ secrets.SMTP_PORT }}
-        username: ${{ secrets.EMAIL }}
-        password: ${{ secrets.EMAIL_PASSWORD }}
-        subject: Playwright Tests Report
-        body: The Playwright tests have completed. Please find the attached Allure report.
-        to: recipient@example.com
-        from: ${{ secrets.EMAIL }}
-        attachments: |
-          allure-report/**/*
